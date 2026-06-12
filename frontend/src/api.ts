@@ -1,3 +1,5 @@
+const API_BASE = import.meta.env.VITE_API_URL || "";
+
 export interface Destination {
   id: string;
   name: string;
@@ -20,13 +22,13 @@ export interface ForecastResponse {
 }
 
 export async function getDestinations(): Promise<Destination[]> {
-  const res = await fetch("/api/destinations");
+  const res = await fetch(`${API_BASE}/api/destinations`);
   if (!res.ok) throw new Error("Failed to fetch destinations");
   return res.json();
 }
 
 export async function getForecast(id: string): Promise<ForecastResponse> {
-  const res = await fetch(`/api/forecast/${id}`);
+  const res = await fetch(`${API_BASE}/api/forecast/${id}`);
   if (!res.ok) throw new Error("Failed to fetch forecast");
   return res.json();
 }
