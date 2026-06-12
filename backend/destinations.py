@@ -9,19 +9,19 @@ DESTINATIONS = {
         "name": "Goa",
         "state": "Goa",
         "search_terms": ["goa trip", "goa beach", "goa travel"],
-        "off_months": [6, 7, 8],
+        "off_months": [8],
     },
     "rishikesh": {
         "name": "Rishikesh",
         "state": "Uttarakhand",
         "search_terms": ["rishikesh trip", "rishikesh rafting", "rishikesh yoga"],
-        "off_months": [7, 8],
+        "off_months": [8],
     },
     "coorg": {
         "name": "Coorg",
         "state": "Karnataka",
         "search_terms": ["coorg trip", "coorg travel", "coorg homestay"],
-        "off_months": [6, 7],
+        "off_months": [6],
     },
     "hampi": {
         "name": "Hampi",
