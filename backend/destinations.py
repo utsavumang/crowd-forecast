@@ -21,7 +21,7 @@ DESTINATIONS = {
         "name": "Coorg",
         "state": "Karnataka",
         "search_terms": ["coorg trip", "coorg travel", "coorg homestay"],
-        "off_months": [6],
+        "off_months": [8],
     },
     "hampi": {
         "name": "Hampi",
